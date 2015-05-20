@@ -1,8 +1,31 @@
 <?php
+define( TITLE, 'titolo' );
+define( DESCR, 'descr' );
+define( KEYS, 'keys' );
+define( AUTHOR, 'author' );
+
 define( LANG, 'it' );
 include 'locale/' . LANG . '-message.php';
 include 'config.php';
 
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title><?php echo TITLE; ?></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+    <!-- #local --> <link rel="stylesheet" href="style/style.css" />
+    <meta name="description" content="<?php echo DESCR; ?>" />
+    <meta name="keywords" content="<?php echo KEYS; ?>" />
+    <meta name="author" content="<?php echo AUTHOR; ?>" />
+    <link rel="author" href="https://www.google.com/+carlodenaro" />
+</head>
+<body>
+<?php
 
 $do = addslashes($_GET['do']);
 switch( $do ){
@@ -64,3 +87,5 @@ switch( $do ){
 
 } // -- end switch
 ?>
+</body>
+</html>
