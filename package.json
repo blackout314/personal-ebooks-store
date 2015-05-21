@@ -1,0 +1,30 @@
+{
+  "author": "carlo 'blackout' denaro",
+  "name": "personal-ebooks-store",
+  "version": "0.0.1",
+  "homepage": "https://github.com/blackout314/personal-ebooks-store",
+  "licenses": {
+    "type": "GPL3",
+    "url": "https://raw.githubusercontent.com/GrayHats/ngbp-onepage/master/LICENSE"
+  },
+  "bugs": "https://github.com/blackout314/personal-ebooks-store/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackout314/personal-ebooks-store.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "^0.4.1",
+    "grunt-contrib-concat": "^0.3.0",
+    "grunt-contrib-copy": "^0.4.1",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-jshint": "^0.4.3",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-uglify": "^0.2.7",
+    "grunt-contrib-watch": "^0.4.4",
+    "grunt-html2js": "^0.1.9",
+    "grunt-ngmin": "0.0.2",
+    "grunt-ftp-deploy": "~0.1.10"
+  }
+}
